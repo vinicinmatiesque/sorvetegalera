@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiquinho sorvetes</title>
+</head>
+<body>
+
+    <label>Como você gostaria de ser chamado?</label>
+    <input id="nome" type="text" placeholder="Nome"></input>
+
+    <label>Quantidade:</label>
+    <input id="quantidade" type="number" placeholder="Minimo 1" min="1"></input>
+
+    <label>Sabores:</label>
+    <select id="sabores">
+        <option>Selecione</option>
+        <option value="Baunilha">Baunilha</option>
+        <option value="Napolitano">Napolitano</option>
+        <option value="Chocolate com Menta">Chocolate com Menta</option>
+        <option value="Brigadeiro">Brigadeiro</option>
+        <option value="Leite Condensado">Leite Condensado</option>
+
+    </select>
+
+    <button id="botao">Fazer pedido</button>
+
+<hr>
+
+    <p id="pedidoNome"></p>
+    <p id="pedidoQuantia"></p>
+    <p id="pedidoSabor"></p>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
